@@ -171,9 +171,14 @@ footer{
 footer p{    
     float: right;
     margin: 0px;
-    padding: 14px 5vw;
+    padding: 14px 3vw;
     vertical-align: middle;
 }
+
+
+.hyper{text-decoration: none; color:#515151;}
+.hyper:hover{text-decoration: none;color:#515151;}
+.hyper:visited{text-decoration: none;}
 
 @media (min-width:992px) {
     #navigation {

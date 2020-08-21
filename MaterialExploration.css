@@ -73,6 +73,10 @@ box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
 
 
+.hyper{text-decoration: none; color:#515151;}
+.hyper:hover{text-decoration: none;color:#515151;}
+.hyper:visited{text-decoration: none;}
+
 footer{
     width: 100vw;
     height:50px;
@@ -83,7 +87,7 @@ footer{
 footer p{    
     float: right;
     margin: 0px;
-    padding: 14px 5vw;
+    padding: 14px 3vw;
     vertical-align: middle;
 }
 
