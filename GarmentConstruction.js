@@ -133,6 +133,7 @@ var controller = new ScrollMagic.Controller();
 
 var timeline = new TimelineMax()
     .from('#section1 h2', 1, {x: '150%', delay:1, opacity:0, ease:Power0.easeOut},0)
+.from('#section2 h2', 1, {x: '-150%', delay:0, opacity:0, ease:Power0.easeOut},0)
     .add(TweenMax.from(("#section1 img"),2,{opacity:1, scale:0}))
     .add(TweenMax.from(("#section1 em"),1,{opacity:1, opacity:0}))
     .from('#section1 p', 1, {y: '150%', delay:3, opacity:0, ease:Power0.easeOut},0)
