@@ -338,12 +338,12 @@ footer p{
     .phone{
         padding-left: 8vw; 
         float: left;
-        font-size: 1.5em;
+        font-size: 1.1em;
     }
     .email{
         padding-right: 8vw; 
         float: right;
-        font-size: 1.5em;
+        font-size: 1.1em;
     }
 }
 
@@ -405,13 +405,13 @@ footer p{
     .phone{
         padding: 20px;
         float: left;
-        font-size: 1.5em;
+        font-size: 1.1em;
         fo
     }
     .email{
         padding: 20px;
         float: left;
-        font-size: 1.5em;
+        font-size: 1.1em;
     }
     .border-button{
         font-size: 1em;
