@@ -46,11 +46,6 @@ var btn9 = document.getElementById("btn9");
 btn9.onclick = function() {
   modal9.style.display = "block";
 }
-var modal10 = document.getElementById("myModal10");
-var btn10 = document.getElementById("btn10");
-btn10.onclick = function() {
-  modal10.style.display = "block";
-}
 
 window.onclick = function(event) {
   if (event.target == modal2) {
@@ -80,11 +75,8 @@ window.onclick = function(event) {
   if (event.target == modal9) {
     modal9.style.display = "none";
   }
-  if (event.target == modal10) {
-    modal10.style.display = "none";
-  }
 }
-  
+
 
 var scrollY = 0;
 var distance = 0;
@@ -136,7 +128,7 @@ $(document).ready(function(){
 
 
 $(document).ready(function(){
-    
+
 var controller = new ScrollMagic.Controller();
 
 var timeline = new TimelineMax()
@@ -163,7 +155,7 @@ scene.reverse(false)
 
 
 });
-    
+
 /*.addIndicators({
 			name: 'fade scene',
 			colorTrigger: 'black',
