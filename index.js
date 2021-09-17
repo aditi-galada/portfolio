@@ -94,7 +94,7 @@ scene.reverse(false)
 var timeline = new TimelineMax()
     .add(TweenMax.from(("#section3 h2"),1,{opacity:0, scale:3}))
     .add(TweenMax.from(("#section3 em"),3,{opacity:1, opacity:0}))
-var scene= new ScrollMagic.Scene({triggerElement:'#section3 h2', triggerHook:.4})
+var scene= new ScrollMagic.Scene({triggerElement:'#section3 h2', triggerHook:.8})
 .setTween(timeline)
 scene.reverse(false)
 .addTo(controller);
