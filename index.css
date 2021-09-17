@@ -223,7 +223,7 @@ footer p{
 }
 
 
-#section1, #section3{
+#section3{
     min-height: 100vh;
 }
 @media (min-width:992px) {
