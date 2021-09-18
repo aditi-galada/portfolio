@@ -2,8 +2,6 @@ body{
     max-width: 100vw;
     text-align: justify;
     overflow-x: hidden;
-    
-    overflow-y: hidden;
     font-family: 'Orbitron', sans-serif;  
     position: relative;
 }
@@ -129,7 +127,13 @@ box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
     animation-fill-mode:forwards;    
 }
 
+.edu-desc{
+    font-family: 'Orbitron', sans-serif;color:#868686;padding-left: 25px; line-height: 30px;" 
+}
 
+.exp-desc{
+    font-family: 'Orbitron', sans-serif;color:#868686;padding-left: 25px; line-height: 20px;" 
+}
 .skill{
     float: left;
     margin: 10px;
@@ -137,10 +141,6 @@ box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 
 .skill-icon{
     padding-right: 10px;
-}
-
-.edu-desc, .exp-desc{
-    font-family: 'Open Sans', sans-serif; color:#868686; line-height: 30px;" 
 }
 
 #container{
@@ -223,7 +223,7 @@ footer p{
 }
 
 
-#section3{
+#section1, #section3{
     min-height: 100vh;
 }
 @media (min-width:992px) {
@@ -270,13 +270,13 @@ footer p{
     float: right;
     }
     .card {
-        width: 300px;
-        height: 400px;
-        margin: 2vw;
+        width: 220px;
+        height: 290px;
+        margin: 1vw;
     }
     .content {
-        width: 300px;
-        height: 400px;
+        width: 220px;
+        height:290px;
     }
     .back{
         font-size: 2em;
@@ -323,16 +323,16 @@ footer p{
         width:90vw;
     }
         .card {
-        width: 220px;
-        height: 290px;
+        width: 145px;
+        height: 190px;
         margin: 2vw;
     }
     .content {
-        width: 220px;
-        height:290px;
+        width: 145px;
+        height:190px;
     }
     .back{
-        font-size: 2em;
+        font-size: 1em;
     }
     
     .phone{
@@ -384,16 +384,17 @@ footer p{
     float: right;
     }
         .card {
-        width: 120px;
-        height: 160px;
-        margin: 2vw;
+        width: 70px;
+        height: 95px;
+        margin: 2px;
     }
     .content {
-        width: 120px;
-        height:160px;
+        width: 70px;
+        height: 95px;
     }
     .back{
-        font-size: 1em;
+padding-top: 10px;        
+font-size: .5em;
     }
     
     .contact-container{
