@@ -264,8 +264,15 @@ footer p{
     .modal-content {
         height: 90vh;
     }
-
-
+  .gallery{
+    max-height:500px; 
+    padding:2vw;
+  }
+      .gallery2{
+    max-height:300px; 
+    padding:2vw;
+      max-width: 500px; 
+  }
 }
 
 
@@ -302,6 +309,15 @@ footer p{
     footer{
         font-size: .8em;
     }
+  .gallery{
+    max-height:500px; 
+    padding:2vw;
+  }
+   .gallery2{
+    max-height:500px; 
+    padding:2vw;
+      max-width: 500px; 
+  }
 }
 
 
@@ -345,6 +361,16 @@ footer p{
     .g2, .content_img2{
         width: 94vw;
     }    
+  .gallery1{
+    max-height:300px; 
+    padding:2vw;
+  }
+    .gallery2{
+    max-height:300px; 
+    padding:2vw;
+      max-width: 300px; 
+  }
+  
 }
 
 
