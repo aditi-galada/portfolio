@@ -92,74 +92,82 @@ scene.reverse(false)
 .addTo(controller);
     
 var timeline = new TimelineMax()
-    .add(TweenMax.from(("#section3 h2"),1,{opacity:0, scale:3}))
-    .add(TweenMax.from(("#section3 em"),3,{opacity:1, opacity:0}))
-var scene= new ScrollMagic.Scene({triggerElement:'#section3 h2', triggerHook:.8})
-.setTween(timeline)
-scene.reverse(false)
-.addTo(controller);
-
-var timeline = new TimelineMax()
-    .from('#section3 .bodyscan .sub-head', 1, {x: '150%', delay:0, opacity:0, ease:Power0.easeOut},0)
-    .from('#section3 .bodyscan p', 1, {x: '-150%', delay:0, opacity:0, ease:Power0.easeOut},0)
-var scene= new ScrollMagic.Scene({triggerElement:'#section3 h2', triggerHook:.8})
-.setTween(timeline)
-scene.reverse(false)
-.addTo(controller);	
-
-var timeline = new TimelineMax()
-    .from('#section3 .hybrid .sub-head', 1, {x: '150%', delay:0, opacity:0, ease:Power0.easeOut},0)
-    .from('#section3 .hybrid p', 1, {x: '-150%', delay:0, opacity:0, ease:Power0.easeOut},0)
-var scene= new ScrollMagic.Scene({triggerElement:'#section3 h2', triggerHook:.7})
-.setTween(timeline)
-scene.reverse(false)
-.addTo(controller);	
-	
-var timeline = new TimelineMax()
-    .from('#section3 .engaged .sub-head', 1, {x: '150%', delay:0, opacity:0, ease:Power0.easeOut},0)
-    .from('#section3 .engaged p', 1, {x: '-150%', delay:0, opacity:0, ease:Power0.easeOut},0)
-var scene= new ScrollMagic.Scene({triggerElement:'#section3 h2', triggerHook:.6})
-.setTween(timeline)
-scene.reverse(false)
-.addTo(controller);	
-	
-var timeline = new TimelineMax()
-    .from('#section3 .biba .sub-head', 1, {x: '150%', delay:0, opacity:0, ease:Power0.easeOut},0)
-    .from('#section3 .biba p', 1, {x: '-150%', delay:0, opacity:0, ease:Power0.easeOut},0)
-var scene= new ScrollMagic.Scene({triggerElement:'#section3 h2', triggerHook:.5})
+    .add(TweenMax.from(("#section3_1 h2"),1,{opacity:0, scale:3}))
+    .add(TweenMax.from(("#section3_1 em"),3,{opacity:1, opacity:0}))
+var scene= new ScrollMagic.Scene({triggerElement:'#section3_1 h2', triggerHook:.8})
 .setTween(timeline)
 scene.reverse(false)
 .addTo(controller);
     
 var timeline = new TimelineMax()
-    .from('#section3 .lee .sub-head', 1, {x: '150%', delay:0, opacity:0, ease:Power0.easeOut},0)
-    .from('#section3 .lee p', 1, {x: '-150%', delay:0, opacity:0, ease:Power0.easeOut},0)
-var scene= new ScrollMagic.Scene({triggerElement:'#section3 h2', triggerHook:.4})
+    .add(TweenMax.from(("#section3_2 h2"),1,{opacity:0, scale:3}))
+    .add(TweenMax.from(("#section3_2 em"),3,{opacity:1, opacity:0}))
+var scene= new ScrollMagic.Scene({triggerElement:'#section3_2 h2', triggerHook:.8})
+.setTween(timeline)
+scene.reverse(false)
+.addTo(controller);
+
+var timeline = new TimelineMax()
+    .from('#section3_2 .bodyscan .sub-head', 1, {x: '150%', delay:0, opacity:0, ease:Power0.easeOut},0)
+    .from('#section3_2 .bodyscan p', 1, {x: '-150%', delay:0, opacity:0, ease:Power0.easeOut},0)
+var scene= new ScrollMagic.Scene({triggerElement:'#section3_2 h2', triggerHook:.8})
+.setTween(timeline)
+scene.reverse(false)
+.addTo(controller);	
+
+var timeline = new TimelineMax()
+    .from('#section3_2 .hybrid .sub-head', 1, {x: '150%', delay:0, opacity:0, ease:Power0.easeOut},0)
+    .from('#section3_2 .hybrid p', 1, {x: '-150%', delay:0, opacity:0, ease:Power0.easeOut},0)
+var scene= new ScrollMagic.Scene({triggerElement:'#section3_2 h2', triggerHook:.7})
+.setTween(timeline)
+scene.reverse(false)
+.addTo(controller);	
+	
+var timeline = new TimelineMax()
+    .from('#section3_2 .engaged .sub-head', 1, {x: '150%', delay:0, opacity:0, ease:Power0.easeOut},0)
+    .from('#section3_2 .engaged p', 1, {x: '-150%', delay:0, opacity:0, ease:Power0.easeOut},0)
+var scene= new ScrollMagic.Scene({triggerElement:'#section3_2 h2', triggerHook:.6})
+.setTween(timeline)
+scene.reverse(false)
+.addTo(controller);	
+	
+var timeline = new TimelineMax()
+    .from('#section3_1 .biba .sub-head', 1, {x: '150%', delay:0, opacity:0, ease:Power0.easeOut},0)
+    .from('#section3_1 .biba p', 1, {x: '-150%', delay:0, opacity:0, ease:Power0.easeOut},0)
+var scene= new ScrollMagic.Scene({triggerElement:'#section3_1 h2', triggerHook:.5})
+.setTween(timeline)
+scene.reverse(false)
+.addTo(controller);
+    
+var timeline = new TimelineMax()
+    .from('#section3_1 .lee .sub-head', 1, {x: '150%', delay:0, opacity:0, ease:Power0.easeOut},0)
+    .from('#section3_1 .lee p', 1, {x: '-150%', delay:0, opacity:0, ease:Power0.easeOut},0)
+var scene= new ScrollMagic.Scene({triggerElement:'#section3_1 h2', triggerHook:.4})
 .setTween(timeline)
 scene.reverse(false)
 .addTo(controller);
 
 
 var timeline = new TimelineMax()
-    .from('#section3 .raymonds .sub-head', 1, {x: '150%', delay:0, opacity:0, ease:Power0.easeOut},0)
-    .from('#section3 .raymonds p', 1, {x: '-150%', delay:0, opacity:0, ease:Power0.easeOut},0)
-var scene= new ScrollMagic.Scene({triggerElement:'#section3 h2', triggerHook:.3})
+    .from('#section3_1 .raymonds .sub-head', 1, {x: '150%', delay:0, opacity:0, ease:Power0.easeOut},0)
+    .from('#section3_1 .raymonds p', 1, {x: '-150%', delay:0, opacity:0, ease:Power0.easeOut},0)
+var scene= new ScrollMagic.Scene({triggerElement:'#section3_1 h2', triggerHook:.3})
 .setTween(timeline)
 scene.reverse(false)
 .addTo(controller);
 
 var timeline = new TimelineMax()
-    .from('#section3 .arvind .sub-head', 1, {x: '150%', delay:0, opacity:0, ease:Power0.easeOut},0)
-    .from('#section3 .arvind p', 1, {x: '-150%', delay:0, opacity:0, ease:Power0.easeOut},0)
-var scene= new ScrollMagic.Scene({triggerElement:'#section3 h2', triggerHook:.2})
+    .from('#section3_1 .arvind .sub-head', 1, {x: '150%', delay:0, opacity:0, ease:Power0.easeOut},0)
+    .from('#section3_1 .arvind p', 1, {x: '-150%', delay:0, opacity:0, ease:Power0.easeOut},0)
+var scene= new ScrollMagic.Scene({triggerElement:'#section3_1 h2', triggerHook:.2})
 .setTween(timeline)
 scene.reverse(false)
 .addTo(controller);
 
 var timeline = new TimelineMax()
-    .from('#section3 .terrain .sub-head', 1, {x: '150%', delay:0, opacity:0, ease:Power0.easeOut},0)
-    .from('#section3 .terrain p', 1, {x: '-150%', delay:0, opacity:0, ease:Power0.easeOut},0)
-var scene= new ScrollMagic.Scene({triggerElement:'#section3 h2', triggerHook:.1})
+    .from('#section3_1 .terrain .sub-head', 1, {x: '150%', delay:0, opacity:0, ease:Power0.easeOut},0)
+    .from('#section3_1 .terrain p', 1, {x: '-150%', delay:0, opacity:0, ease:Power0.easeOut},0)
+var scene= new ScrollMagic.Scene({triggerElement:'#section3_1 h2', triggerHook:.1})
 .setTween(timeline)
 scene.reverse(false)
 .addTo(controller);
