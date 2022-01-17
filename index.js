@@ -130,7 +130,15 @@ var scene= new ScrollMagic.Scene({triggerElement:'#section3_2 h2', triggerHook:.
 .setTween(timeline)
 scene.reverse(false)
 .addTo(controller);	
-	
+    	
+var timeline = new TimelineMax()
+    .from('#section3_1 .fitmatch .sub-head', 1, {x: '150%', delay:0, opacity:0, ease:Power0.easeOut},0)
+    .from('#section3_1 .fitmatch p', 1, {x: '-150%', delay:0, opacity:0, ease:Power0.easeOut},0)
+var scene= new ScrollMagic.Scene({triggerElement:'#section3_1 h2', triggerHook:.6})
+.setTween(timeline)
+scene.reverse(false)
+.addTo(controller);
+    	
 var timeline = new TimelineMax()
     .from('#section3_1 .biba .sub-head', 1, {x: '150%', delay:0, opacity:0, ease:Power0.easeOut},0)
     .from('#section3_1 .biba p', 1, {x: '-150%', delay:0, opacity:0, ease:Power0.easeOut},0)
@@ -138,7 +146,7 @@ var scene= new ScrollMagic.Scene({triggerElement:'#section3_1 h2', triggerHook:.
 .setTween(timeline)
 scene.reverse(false)
 .addTo(controller);
-    
+
 var timeline = new TimelineMax()
     .from('#section3_1 .lee .sub-head', 1, {x: '150%', delay:0, opacity:0, ease:Power0.easeOut},0)
     .from('#section3_1 .lee p', 1, {x: '-150%', delay:0, opacity:0, ease:Power0.easeOut},0)
